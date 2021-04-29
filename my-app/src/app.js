@@ -32,7 +32,6 @@ function initVue() {
     },
   });
 }
-
 function init() {
   initVue();
 }

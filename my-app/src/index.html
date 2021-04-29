@@ -25,8 +25,6 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
-
-
 </head>
 
 <body>
@@ -62,8 +60,7 @@
                     <div id="jumbo-nav-right">
                         <ul class="d-inline-flex">
                             <li class="menu-jumbo"><a class="menu-jumbo txt-color-white"
-                                 v-for="(menu,index) in menuJumbotron"
-                                :href=`${menu.url}`>{{menu.name}}</a>
+                                    v-for="(menu,index) in menuJumbotron" :href=`${menu.url}`>{{menu.name}}</a>
                                 <i class="fas fa-chevron-down"></i>
                             </li>
                         </ul>
@@ -123,66 +120,69 @@
                                 <li>Facilisis in pretium nisl aliquet</li>
                             </ul>
                         </div>
-                        <!-- MAIN SERVICES -->
-                        <section>
-                            <div id="section-services" class="bg-dark-blue">
-                                <div class="container d-flex justif-between align-center">
-                                    <div id="services-incipit">
-                                        <span class="clr-txt-acquamarine">
-                                            <strong>ROAD TRANSPORT</strong>
-                                        </span>
-                                        <h2 class="txt-color-white">
-                                            Main
-                                            <span class="bg-aquamire-semi-transparent">
-                                                Services
-                                            </span>
-                                        </h2>
-                                        <p class="txt-grey">
-                                            With all of this expertise and capability comes an unrivalled commitment to
-                                            customer service.
-                                            We will work hard to understand your needs in order to develop a productive,
-                                            long-term partnership.
-                                        </p>
-                                    </div>
-                                    <div id="services-button-incipit">
-                                        <button class="btn-empty">SEE ALL</button>
-                                    </div>
-                                </div>
-                                <!-- SERVICES CARD -->
-                                <div class="container d-flex mg-top-30">
-                                    <div class="services-card-container bg-cards txt-color-white">
-                                        <a href="#"><i class="fas fa-arrow-right"></i></a>
-                                        <div class="icona">
-                                            <i class="fas fa-truck-loading clr-txt-acquamarine"></i>
-                                        </div>
-                                        <h3>Technology</h3>
-                                        <p class="txt-grey"><small>Lorem ipsum, dolor sit amet consectetur
-                                                adipisicing elit. Maxime aliquid tempora omnis, expedita cumque
-                                                reiciendis.</small></p>
-                                    </div>
-                                    <div class="services-card-container bg-cards txt-color-white">
-                                        <a href="#"><i class="fas fa-arrow-right"></i></a>
-                                        <div class="icona">
-                                            <i class="fas fa-temperature-low clr-txt-acquamarine"></i>
-                                        </div>
-                                        <h3>Reefer Cargo</h3>
-                                        <p class="txt-grey"><small>Lorem ipsum, dolor sit amet consectetur
-                                                adipisicing elit. Maxime aliquid tempora omnis,
-                                                expedita cumque reiciendis.</small></p>
-                                    </div>
-                                    <div class="services-card-container bg-cards txt-color-white">
-                                        <a href="#"><i class="fas fa-arrow-right"></i></a>
-                                        <div class="icona">
-                                            <i class="fas fa-boxes clr-txt-acquamarine"></i>
-                                        </div>
-                                        <h3>Dry Cargo</h3>
-                                        <p class="txt-grey"><small>Lorem ipsum, dolor sit amet consectetur
-                                                adipisicing elit. Maxime aliquid tempora omnis,
-                                                expedita cumque reiciendis.</small></p>
-                                    </div>
-                                </div>
+                        <div class="plan-box">
+                            
+                        </div>
+            </section>
+            <!-- MAIN SERVICES -->
+            <section>
+                <div id="section-services" class="bg-dark-blue wrappers">
+                    <div class="container d-flex space-between align-center">
+                        <div id="services-incipit">
+                            <span class="clr-txt-acquamarine">
+                                <strong>ROAD TRANSPORT</strong>
+                            </span>
+                            <h2 class="txt-color-white">
+                                Main
+                                <span class="bg-aquamire-semi-transparent">
+                                    Services
+                                </span>
+                            </h2>
+                            <p class="txt-grey">
+                                With all of this expertise and capability comes an unrivalled commitment to
+                                customer service.
+                                We will work hard to understand your needs in order to develop a productive,
+                                long-term partnership.
+                            </p>
+                        </div>
+                        <div id="services-button-incipit">
+                            <button class="btn-empty">SEE ALL</button>
+                        </div>
+                    </div>
+                    <!-- SERVICES CARD -->
+                    <div class="container d-flex">
+                        <div class="services-card-container bg-cards txt-color-white">
+                            <a href="#"><i class="fas fa-arrow-right"></i></a>
+                            <div class="icona">
+                                <i class="fas fa-truck-loading clr-txt-acquamarine"></i>
                             </div>
-                        </section>
+                            <h3>Technology</h3>
+                            <p class="txt-grey"><small>Lorem ipsum, dolor sit amet consectetur
+                                    adipisicing elit. Maxime aliquid tempora omnis, expedita cumque
+                                    reiciendis.</small></p>
+                        </div>
+                        <div class="services-card-container bg-cards txt-color-white">
+                            <a href="#"><i class="fas fa-arrow-right"></i></a>
+                            <div class="icona">
+                                <i class="fas fa-temperature-low clr-txt-acquamarine"></i>
+                            </div>
+                            <h3>Reefer Cargo</h3>
+                            <p class="txt-grey"><small>Lorem ipsum, dolor sit amet consectetur
+                                    adipisicing elit. Maxime aliquid tempora omnis,
+                                    expedita cumque reiciendis.</small></p>
+                        </div>
+                        <div class="services-card-container bg-cards txt-color-white">
+                            <a href="#"><i class="fas fa-arrow-right"></i></a>
+                            <div class="icona">
+                                <i class="fas fa-boxes clr-txt-acquamarine"></i>
+                            </div>
+                            <h3>Dry Cargo</h3>
+                            <p class="txt-grey"><small>Lorem ipsum, dolor sit amet consectetur
+                                    adipisicing elit. Maxime aliquid tempora omnis,
+                                    expedita cumque reiciendis.</small></p>
+                        </div>
+                    </div>
+                </div>
         </main>
 </body>
 </div>
