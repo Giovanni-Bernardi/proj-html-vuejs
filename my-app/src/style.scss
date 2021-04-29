@@ -327,6 +327,7 @@ h2 {
 #section-services {
   width: 100%;
   height: 80vh;
+  background-color: #131319;
 }
 
 .container-services{
@@ -346,6 +347,14 @@ h2 {
 
 #services-incipit h2 {
   padding: 20px 0;
+}
+
+#services-incipit > p{
+    color: #8D91A3;
+}
+
+.description-services{
+    color: #8D91A3;
 }
 
 #services-button-incipit {
@@ -376,20 +385,19 @@ h2 {
   color: white;
 }
 
-#section-services .icona {
+#section-services .icon {
   width: 50px;
   height: 50px;
   position: relative;
 }
 
-#section-services .icona > i {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  transform: translate(-50%, -50%);
-  font-size: 20px;
+#section-services .icon > i {
+    position: absolute;
+    font-size: 30px;
+    border: 15px solid #183136;
+    border-radius: 50px;
+    background-color: #183136;
 }
-
 .services-card-container h3,
 .services-card-container p {
   margin: 15px 0 20px 0;
