@@ -290,7 +290,7 @@ h2 {
   position: relative;
   flex-direction: column;
   word-wrap: break-word;
-  background-color: #EDEDED;
+  background-color: #ededed;
   background-clip: border-box;
   border-radius: 10px 10px 10px 10px;
   height: 68vh;
@@ -376,11 +376,11 @@ h2 {
 }
 
 #services-incipit > p {
-  color: #8D91A3;
+  color: #8d91a3;
 }
 
 .description-services {
-  color: #8D91A3;
+  color: #8d91a3;
 }
 
 #services-button-incipit {
@@ -432,4 +432,40 @@ h2 {
 
 #section-services > div:nth-child(2) {
   margin-top: 40px;
+}
+
+#section-results {
+  background-image: url("../assets/img/bg-10.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 70vh;
+}
+
+#section-results > div {
+  height: 100%;
+  padding: 10% 0;
+}
+
+#results-incipit {
+  text-align: center;
+  margin-bottom: 50px;
+  line-height: 1.7;
+}
+
+/* RESULTS DATA */
+#results-data > div > span:nth-child(1) {
+  font-weight: 700;
+  font-size: 2.4rem;
+  display: block;
+  text-align: center;
+}
+
+#results-data > div > span:nth-child(2) {
+  font-weight: 700;
+  font-size: larger;
+}
+
+#results-subtitle {
+  color: #B4B7C4;
 }

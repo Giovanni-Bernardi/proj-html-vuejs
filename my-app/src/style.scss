@@ -41,7 +41,6 @@ h2 {
   align-items: center;
 }
 
-
 // COLORS
 .txt-color-white {
   color: white;
@@ -313,17 +312,17 @@ h2 {
 }
 
 .plan-box {
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    word-wrap: break-word;
-    background-color: #EDEDED;
-    background-clip: border-box;
-    border-radius: 10px 10px 10px 10px;
-    height: 68vh;
-    width: 32%;
-    right: -5%;
-    padding: 30px 45px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  word-wrap: break-word;
+  background-color: #ededed;
+  background-clip: border-box;
+  border-radius: 10px 10px 10px 10px;
+  height: 68vh;
+  width: 32%;
+  right: -5%;
+  padding: 30px 45px;
 }
 
 .price {
@@ -341,10 +340,9 @@ h2 {
 .plan-box i {
   color: #00a6a6;
   font-size: 2.5rem;
-
 }
 
-#section-about > div > div.plan-box > div > i.fas.fa-arrow-right{
+#section-about > div > div.plan-box > div > i.fas.fa-arrow-right {
   font-size: 1.9rem;
 }
 
@@ -359,10 +357,9 @@ h2 {
   color: #606d75;
 }
 
-.plan-box ul{
-margin-top: 10px;
-color: #606d75;
-
+.plan-box ul {
+  margin-top: 10px;
+  color: #606d75;
 }
 
 .plan-box ul li {
@@ -373,12 +370,10 @@ color: #606d75;
   justify-content: space-between;
 }
 
-#section-about > div > div.plan-box > ul > li i{
+#section-about > div > div.plan-box > ul > li i {
   font-size: 1.5rem;
   vertical-align: middle;
 }
-
-
 
 // *****************************************************
 // *****************************************************
@@ -389,9 +384,9 @@ color: #606d75;
   background-color: #131319;
 }
 
-.container-services{
-    display: flex;
-    flex-wrap: wrap;
+.container-services {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #section-services > div {
@@ -408,12 +403,12 @@ color: #606d75;
   padding: 20px 0;
 }
 
-#services-incipit > p{
-    color: #8D91A3;
+#services-incipit > p {
+  color: #8d91a3;
 }
 
-.description-services{
-    color: #8D91A3;
+.description-services {
+  color: #8d91a3;
 }
 
 #services-button-incipit {
@@ -451,11 +446,11 @@ color: #606d75;
 }
 
 #section-services .icon > i {
-    position: absolute;
-    font-size: 30px;
-    border: 15px solid #183136;
-    border-radius: 50px;
-    background-color: #183136;
+  position: absolute;
+  font-size: 30px;
+  border: 15px solid #183136;
+  border-radius: 50px;
+  background-color: #183136;
 }
 .services-card-container h3,
 .services-card-container p {
@@ -464,4 +459,40 @@ color: #606d75;
 
 #section-services > div:nth-child(2) {
   margin-top: 40px;
+}
+// *****************************************************
+// *****************************************************
+// RESULTS
+
+#section-results{
+  background-image: url("../assets/img/bg-10.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 70vh;
+}
+#section-results > div{
+  height: 100%;
+  padding: 10% 0;
+}
+
+#results-incipit{
+  text-align: center;
+  margin-bottom: 50px;
+  line-height: 1.7;
+}
+/* RESULTS DATA */
+#results-data > div > span:nth-child(1){
+  font-weight: 700;
+  font-size: 2.4rem;
+  display: block;
+  text-align: center;
+}
+#results-data > div > span:nth-child(2){
+  font-weight: 700;
+  font-size: larger;
+}
+
+#results-subtitle {
+  color: #B4B7C4
 }
