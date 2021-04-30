@@ -513,7 +513,7 @@ h2 {
   z-index: 1;
   right: 0;
   left: 0;
-  top: 353%;
+  top: 361%;
   bottom: -30px;
   width: 100%;
   height: 60px;
@@ -699,4 +699,106 @@ svg {
 
 #services-incipit > span > strong {
   font-family: "Montserrat", sans-serif;
+}
+
+#footer {
+  width: 100%;
+  height: 80vh;
+}
+
+#footer > div {
+  height: 100%;
+}
+
+#footer-info, #footer-card {
+  width: calc(100%/4);
+  padding-right: 22px;
+  height: 251px;
+}
+
+#footer-info .logo {
+  font-size: x-large;
+}
+
+#footer-info p {
+  margin: 20px 0;
+}
+
+#footer-info li {
+  margin-bottom: 12px;
+}
+
+#footer-info i {
+  width: 16px;
+  margin-right: 5px;
+}
+
+#footer-info button {
+  margin-top: 10px;
+}
+
+#footer-card {
+  background-color: #191c1e;
+  padding: 35px 30px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+#footer-card h3 {
+  margin-bottom: 15px;
+}
+
+#footer-card li {
+  margin-bottom: 7px;
+}
+
+#footer-card a:hover {
+  color: #028384 !important;
+}
+
+#footer-card i {
+  margin-right: 10px;
+}
+
+/* lower footer */
+#lower-footer {
+  width: 100%;
+  height: 10vh !important;
+  position: relative;
+}
+
+#lower-footer > div {
+  height: 100%;
+}
+
+#lower-footer a {
+  color: #028384;
+}
+
+#lower-footer a:hover {
+  color: white;
+}
+
+#btn-back-top {
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  transform: translateY(-50%);
+}
+
+.btn-back-top {
+  background-color: #4d515369;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.btn-back-top i {
+  color: white;
+  font-size: larger;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

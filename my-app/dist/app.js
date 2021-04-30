@@ -38,7 +38,7 @@ function initVue() {
       nameForm: null,
       emailForm: null,
       moreInfoForm: "",
-      // DATA link menu footer
+      // DATA FOOTER
       footerLink: [{
         label: "About",
         downMenu: [{
