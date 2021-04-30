@@ -32,15 +32,11 @@ h2 {
 }
 
 .wrappers {
-  padding: 0 18%;
+  padding: 0 10%;
 }
 
 .align-center {
   align-items: center;
-}
-
-.thin {
-  font-weight: 100;
 }
 
 .txt-color-white {
@@ -81,8 +77,6 @@ h2 {
   width: 100%;
   min-height: 50px;
   background-color: #0f2131;
-  color: #ffffff;
-  padding: 0 20%;
   color: #bcbdbd;
   font-weight: 500;
   font-size: 0.9rem;
@@ -99,7 +93,7 @@ h2 {
   display: inline;
 }
 .nav-container #nav-left {
-  width: 25%;
+  width: 30%;
   display: flex;
   flex-wrap: wrap;
   align-content: center;
@@ -108,7 +102,7 @@ h2 {
   margin: 0 8px;
 }
 .nav-container #nav-right {
-  width: 41%;
+  width: 45%;
   display: flex;
   flex-wrap: wrap;
   align-content: center;
@@ -253,16 +247,19 @@ h2 {
 
 #section-about {
   width: 100%;
-  height: 60vh;
+  height: 100vh;
+  padding: 100px 0;
+  justify-content: space-between;
 }
 
-#section-about > div {
-  flex-wrap: wrap;
-  margin-top: 80px;
+#about-left > span {
+  margin-bottom: 20px;
+  display: block;
 }
 
 #about-left {
-  width: 50%;
+  position: relative;
+  width: 60%;
   padding-right: 50px;
 }
 
@@ -289,9 +286,67 @@ h2 {
 }
 
 .plan-box {
-  height: 600px;
-  width: 500px;
-  background-color: red;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  word-wrap: break-word;
+  background-color: #EDEDED;
+  background-clip: border-box;
+  border-radius: 10px 10px 10px 10px;
+  height: 68vh;
+  width: 32%;
+  right: -5%;
+  padding: 30px 45px;
+}
+
+.price {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #058283;
+}
+
+.icon-card {
+  justify-content: space-between;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.plan-box i {
+  color: #00a6a6;
+  font-size: 2.5rem;
+}
+
+#section-about > div > div.plan-box > div > i.fas.fa-arrow-right {
+  font-size: 1.9rem;
+}
+
+.plan-box h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.plan-box p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #606d75;
+}
+
+.plan-box ul {
+  margin-top: 10px;
+  color: #606d75;
+}
+
+.plan-box ul li {
+  margin: 20px 0;
+  list-style-type: none;
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#section-about > div > div.plan-box > ul > li i {
+  font-size: 1.5rem;
+  vertical-align: middle;
 }
 
 /* SERVICES */
@@ -373,4 +428,8 @@ h2 {
 .services-card-container h3,
 .services-card-container p {
   margin: 15px 0 20px 0;
+}
+
+#section-services > div:nth-child(2) {
+  margin-top: 40px;
 }
