@@ -35,6 +35,10 @@ h2 {
   padding: 0 10%;
 }
 
+.relative {
+  position: relative;
+}
+
 .align-center {
   align-items: center;
 }
@@ -76,8 +80,9 @@ h2 {
   justify-content: space-between;
   width: 100%;
   min-height: 50px;
-  background-color: #0f2131;
-  color: #bcbdbd;
+  background-color: transparent;
+  background-image: linear-gradient(-45deg, #1b4965 0%, #0d1b2a 100%);
+  color: #8b8b8b;
   font-weight: 500;
   font-size: 0.9rem;
 }
@@ -438,7 +443,7 @@ h2 {
   background-image: url("../assets/img/bg-10.jpg");
   background-size: cover;
   background-position: center;
-  width: 100vw;
+  width: 100%;
   height: 70vh;
 }
 
@@ -468,4 +473,76 @@ h2 {
 
 #results-subtitle {
   color: #B4B7C4;
+}
+
+.divider {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  left: 0;
+  top: 283%;
+  bottom: -30px;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  opacity: 0.35;
+}
+
+svg {
+  fill: #00ffff;
+}
+
+#section-feedback {
+  width: 100%;
+  height: 95vh;
+  padding-top: 20px;
+}
+
+#section-feedback > div {
+  height: 40%;
+}
+
+/* FEEDBACK INCIPIT */
+#feedback-incipit {
+  padding-top: 75px;
+  height: 100%;
+  text-align: center;
+}
+
+#feedback-incipit h2 {
+  padding: 20px 0;
+}
+
+#feedback-incipit p {
+  color: #8d91a3;
+  padding: 0 18%;
+}
+
+/* FEEDBACK CARD */
+.feedback-card-container {
+  position: relative;
+  width: calc(100%/3);
+  padding: 30px 35px;
+  border-radius: 10px;
+}
+
+#section-feedback > div:nth-child(2) > div:nth-child(2) {
+  margin: 0 20px;
+}
+
+.feedback-card-container > i {
+  position: absolute;
+  bottom: 25px;
+  right: 15px;
+  font-size: 20px;
+  color: #555555;
+}
+
+.feedback-card-container img {
+  width: 100px;
+  filter: brightness(0) invert(1);
+}
+
+.feedback-card-container p {
+  margin: 15px 0 20px 0;
 }
