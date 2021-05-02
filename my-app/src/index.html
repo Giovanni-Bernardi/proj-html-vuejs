@@ -358,7 +358,7 @@ _|"""""|_|"""""|_|"""""|_|"""""|_|"""""| {======|_|"""""|_|"""""|_|"""""|_|"""""
             </section>
             <!-- CONTACT FORM -->
             <section>
-                <div id="section-form" class="bg-white wrappers">
+                <div id="section-form" class="wrappers">
                     <div class="d-flex space-between align-center">
                         <div id="form">
                             <span class="clr-txt-acquamarine"><strong>SEND A MESSAGE</strong></span>
@@ -385,15 +385,14 @@ _|"""""|_|"""""|_|"""""|_|"""""|_|"""""| {======|_|"""""|_|"""""|_|"""""|_|"""""
                                         required>
                                     <select id="info-form" class="clr-txt-darkgrey" v-model="moreInfoForm"
                                         name="info-form">
-                                        <option value="" disabled selected hidden>How can we help you?</option>
-                                        <option>---</option>
+                                        <option value="" disabled selected hidden>---</option>
                                         <option>Sales and Purchasing</option>
                                         <option>Financials and Accounts</option>
                                         <option>Human Resources</option>
                                         <option>Another subjects</option>
                                     </select>
                                 </div>
-                                <div>
+                                <div id="text-field">
                                     <textarea placeholder="Message"></textarea>
                                 </div>
                                 <button class="btn-full" type="submit">SEND</button>
@@ -431,57 +430,57 @@ _|"""""|_|"""""|_|"""""|_|"""""|_|"""""| {======|_|"""""|_|"""""|_|"""""|_|"""""
             </section>
         </main>
         <!-- <footer>
-            <div id="footer" class="bg-dark-blue">
-                <div class="d-flex align-center wrappers">
-                    <div id="footer-info">
-                        <div class="logo d-flex">
-                            <div>NEX</div>
-                            <div class="txt-grey">GEN</div>
+                    <div id="footer" class="bg-dark-blue">
+                        <div class="d-flex align-center wrappers">
+                            <div id="footer-info">
+                                <div class="logo d-flex">
+                                    <div>NEX</div>
+                                    <div class="txt-grey">GEN</div>
+                                </div>
+                                <p class="txt-grey">A Functional HTML Template for Corporate & Business.</p>
+                                <ul class="txt-grey">
+                                    <li>
+                                        <i class="fas fa-phone-alt"></i>
+                                        <span>{{phoneNumber}}</span>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-envelope"></i>
+                                        <span>{{email}}</span>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span>{{address}}</span>
+                                    </li>
+                                </ul>
+                                <button class="btn-empty txt-grey"><a href="#section-form">GET IN TOUCH</a></button>
+                            </div>
+                            <div id="footer-card" v-for="(card,index) in footerLink">
+                                <h3 class="txt-color-white">{{card.label}}</h3>
+                                <ul>
+                                    <li v-for="(link,index) in card.downMenu"><a :href=`${link.url}` class="txt-grey"><i
+                                                class="fas fa-chevron-right"></i>{{link.name}}</a></li>
+                                </ul>
+                            </div>
                         </div>
-                        <p class="txt-grey">A Functional HTML Template for Corporate & Business.</p>
-                        <ul class="txt-grey">
-                            <li>
-                                <i class="fas fa-phone-alt"></i>
-                                <span>{{phoneNumber}}</span>
-                            </li>
-                            <li>
-                                <i class="fas fa-envelope"></i>
-                                <span>{{email}}</span>
-                            </li>
-                            <li>
-                                <i class="fas fa-map-marker-alt"></i>
-                                <span>{{address}}</span>
-                            </li>
-                        </ul>
-                        <button class="btn-empty txt-grey"><a href="#section-form">GET IN TOUCH</a></button>
+                       
+                        <div id="lower-footer" class="bg-black txt-grey txt-size-13">
+                            <div class="container d-flex justif-between align-center">
+                                <div>
+                                    <p>{{lowerFooter.alertPiracy}}</p>
+                                </div>
+                                <div>
+                                    <p><i class="far fa-copyright"></i> {{getCurrentYear()}} {{lowerFooter.copyright}} <a
+                                            :href=`${lowerFooter.copyrightLink.url}`>{{lowerFooter.copyrightLink.name}}</a></p>
+                                </div>
+                            </div>
+                            <a id="btn-back-top" href="#">
+                                <div class="btn-back-top">
+                                    <i class="fas fa-arrow-up"></i>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                    <div id="footer-card" v-for="(card,index) in footerLink">
-                        <h3 class="txt-color-white">{{card.label}}</h3>
-                        <ul>
-                            <li v-for="(link,index) in card.downMenu"><a :href=`${link.url}` class="txt-grey"><i
-                                        class="fas fa-chevron-right"></i>{{link.name}}</a></li>
-                        </ul>
-                    </div>
-                </div>
-               
-                <div id="lower-footer" class="bg-black txt-grey txt-size-13">
-                    <div class="container d-flex justif-between align-center">
-                        <div>
-                            <p>{{lowerFooter.alertPiracy}}</p>
-                        </div>
-                        <div>
-                            <p><i class="far fa-copyright"></i> {{getCurrentYear()}} {{lowerFooter.copyright}} <a
-                                    :href=`${lowerFooter.copyrightLink.url}`>{{lowerFooter.copyrightLink.name}}</a></p>
-                        </div>
-                    </div>
-                    <a id="btn-back-top" href="#">
-                        <div class="btn-back-top">
-                            <i class="fas fa-arrow-up"></i>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </footer> -->
+                </footer> -->
     </div>
 </body>
 </html>
