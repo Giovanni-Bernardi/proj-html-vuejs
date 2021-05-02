@@ -661,10 +661,20 @@ svg {
   padding-top: 30px;
 }
 
+#form-info > h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+#form-info > p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
 #form-info > h3,
 #form-info > p {
   display: block;
-  margin-bottom: 23px;
+  margin-bottom: 25px;
 }
 
 .icon i {
@@ -672,6 +682,9 @@ svg {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: #058283;
+  fill: #058283;
 }
 
 .icon {
@@ -683,8 +696,32 @@ svg {
   border-radius: 50%;
 }
 
+#form-info > ul > li > div {
+  width: 40px;
+  height: 40px;
+}
+
+#form-info > ul > li > div:hover {
+  transition: all 0.4s ease-out 0s;
+  background-color: #00A6A6;
+}
+
+#form-info > ul > li > div > i:hover {
+  color: #ffffff;
+  fill: #ffffff;
+}
+
+#form-info > button {
+  background-color: #00A6A626;
+  border: none;
+}
+
 #form-info li {
   margin: 10px 0;
+}
+
+#form-info ul > li {
+  padding: 10px 0;
 }
 
 #form-info ul li > span {
