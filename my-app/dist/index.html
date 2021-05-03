@@ -19,10 +19,14 @@ _|"""""|_|"""""|_|"""""|_|"""""|_|"""""| {======|_|"""""|_|"""""|_|"""""|_|"""""
     <link rel="stylesheet" href="style.css">
     <!-- JAVASCRIPT -->
     <script src="app.js"></script>
+    <!-- JQUERY -->
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script> -->
     <!-- VUE -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <!-- FAVICON -->
-    <link rel="fivicon" href="img/shipping.png" type="favicon">
+    <link rel="shortcut icon" type="image/png" href="my-app\dist\assets\img\shipping.png"/>
     <!-- FONT AWESOME -->
     <script src="https://kit.fontawesome.com/b1c0bf61f1.js" crossorigin="anonymous"></script>
     <!-- GOOGLE FONTS -->
@@ -70,7 +74,6 @@ _|"""""|_|"""""|_|"""""|_|"""""|_|"""""| {======|_|"""""|_|"""""|_|"""""|_|"""""
                         <ul class="d-inline-flex">
                             <li class="menu-jumbo"><a class="menu-jumbo txt-color-white"
                                     v-for="(menu,index) in menuJumbotron" :href=`${menu.url}`>{{menu.name}}</a>
-                                <i class="fas fa-chevron-down"></i>
                             </li>
                         </ul>
                         <a href="#">
@@ -226,19 +229,19 @@ _|"""""|_|"""""|_|"""""|_|"""""|_|"""""| {======|_|"""""|_|"""""|_|"""""|_|"""""
                         <!-- RESULTS DATA -->
                         <div id="results-data" class="d-flex align-center space-between txt-color-white">
                             <div>
-                                <span class="clr-txt-acquamarine">128</span>
+                                <span class="clr-txt-acquamarine num">128</span>
                                 <span>Certifications</span>
                             </div>
                             <div>
-                                <span class="clr-txt-acquamarine">230</span>
+                                <span class="clr-txt-acquamarine num">230</span>
                                 <span>Employees</span>
                             </div>
                             <div>
-                                <span class="clr-txt-acquamarine">517</span>
+                                <span class="clr-txt-acquamarine num">517</span>
                                 <span>Customers</span>
                             </div>
                             <div>
-                                <span class="clr-txt-acquamarine">94</span>
+                                <span class="clr-txt-acquamarine num">94</span>
                                 <span>Countries Served</span>
                             </div>
                         </div>
@@ -312,7 +315,7 @@ _|"""""|_|"""""|_|"""""|_|"""""|_|"""""| {======|_|"""""|_|"""""|_|"""""|_|"""""
                             <span class="clr-txt-acquamarine">
                                 <strong>CUSTOMERS TESTIMONIALS</strong>
                             </span>
-                            <h2 class="txt-size-38 txt-color-white">
+                            <h2 class="txt-color-white">
                                 Trusted
                                 <span class="bg-aquamire-semi-transparent">
                                     Feedback

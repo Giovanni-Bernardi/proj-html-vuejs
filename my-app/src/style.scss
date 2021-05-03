@@ -192,6 +192,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
+    justify-content: flex-start;
   }
 
   #nav-left > i {
@@ -201,6 +202,7 @@ h2 {
   #nav-right {
     width: 45%;
     display: flex;
+    justify-content: flex-end;
     flex-wrap: wrap;
     align-content: center;
   }
@@ -222,7 +224,7 @@ h2 {
   width: 100%;
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../assets/img/bg-9.jpg");
+    url("../dist/assets/img/bg-9.jpg");
   opacity: 0.95;
   background-size: cover;
   background-repeat: no-repeat;
@@ -506,7 +508,7 @@ h2 {
 // RESULTS
 
 #section-results {
-  background-image: url("../assets/img/bg-10.jpg");
+  background-image: url("../dist/assets/img/bg-10.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -630,7 +632,7 @@ svg {
 #section-form {
   width: 100vw;
   height: 100vh;
-  background-image: url(../assets/img/form-background.png);
+  background-image: url(../dist/assets/img/form-background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
