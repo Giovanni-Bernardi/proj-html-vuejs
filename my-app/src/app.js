@@ -160,14 +160,14 @@ function initVue() {
         return re.test(email);
       },
 
-      getCurrentYear() {
-        return new Date().getFullYear();
+        getCurrentYear() {
+          return new Date().getFullYear();
+      },
     },
-  })
+  });
 
-function init() {
-  initVue();
-}
-
-
-document.addEventListener("DOMContentLoaded", init);
+  function init() {
+    initVue();
+  }
+  
+  document.addEventListener("DOMContentLoaded", init);
