@@ -127,12 +127,11 @@ function initVue() {
       ],
       // INFO FOOTER
       lowerFooter: {
-        alertPiracy:
-          "Enjoy the low price. We are tracking any intention of piracy",
+        alertPiracy: "Enjoy the low price. We are tracking any intention of piracy",
         copyright: "NEXGEN is Proudly Powered By ",
         copyrightLink: {
-          name: "Codings",
-          url: "#",
+        name: "Codings",
+        url: "#",
         },
       },
     },
@@ -158,12 +157,13 @@ function initVue() {
       },
       validEmail: function (email) {
         var re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-                return re.test(email);
+        return re.test(email);
       },
-    },
-  });
-}
 
+      getCurrentYear() {
+        return new Date().getFullYear();
+    },
+  })
 
 function init() {
   initVue();

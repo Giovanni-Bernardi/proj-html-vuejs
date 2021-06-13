@@ -26,7 +26,7 @@ _|"""""|_|"""""|_|"""""|_|"""""|_|"""""| {======|_|"""""|_|"""""|_|"""""|_|"""""
     <!-- VUE -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <!-- FAVICON -->
-    <link rel="shortcut icon" href="my-app\dist\assets\img\shipping (1).png"/>
+    <link rel="shortcut icon" href="my-app\dist\assets\img\shipping (1).png" />
     <!-- FONT AWESOME -->
     <script src="https://kit.fontawesome.com/b1c0bf61f1.js" crossorigin="anonymous"></script>
     <!-- GOOGLE FONTS -->
@@ -436,58 +436,59 @@ _|"""""|_|"""""|_|"""""|_|"""""|_|"""""| {======|_|"""""|_|"""""|_|"""""|_|"""""
                 </div>
             </section>
         </main>
-        <!-- <footer>
-                    <div id="footer" class="bg-dark-blue">
-                        <div class="d-flex align-center wrappers">
-                            <div id="footer-info">
-                                <div class="logo d-flex">
-                                    <div>NEX</div>
-                                    <div class="txt-grey">GEN</div>
-                                </div>
-                                <p class="txt-grey">A Functional HTML Template for Corporate & Business.</p>
-                                <ul class="txt-grey">
-                                    <li>
-                                        <i class="fas fa-phone-alt"></i>
-                                        <span>{{phoneNumber}}</span>
-                                    </li>
-                                    <li>
-                                        <i class="fas fa-envelope"></i>
-                                        <span>{{email}}</span>
-                                    </li>
-                                    <li>
-                                        <i class="fas fa-map-marker-alt"></i>
-                                        <span>{{address}}</span>
-                                    </li>
-                                </ul>
-                                <button class="btn-empty txt-grey"><a href="#section-form">GET IN TOUCH</a></button>
-                            </div>
-                            <div id="footer-card" v-for="(card,index) in footerLink">
-                                <h3 class="txt-color-white">{{card.label}}</h3>
-                                <ul>
-                                    <li v-for="(link,index) in card.downMenu"><a :href=`${link.url}` class="txt-grey"><i
-                                                class="fas fa-chevron-right"></i>{{link.name}}</a></li>
-                                </ul>
-                            </div>
+
+        <footer>
+            <div id="footer" class="bg-dark-blue">
+                <div class="d-flex align-center wrappers">
+                    <div id="footer-info">
+                        <div class="logo d-flex">
+                            <div>NEX</div>
+                            <div class="txt-grey">GEN</div>
                         </div>
-                       
-                        <div id="lower-footer" class="bg-black txt-grey txt-size-13">
-                            <div class="container d-flex justif-between align-center">
-                                <div>
-                                    <p>{{lowerFooter.alertPiracy}}</p>
-                                </div>
-                                <div>
-                                    <p><i class="far fa-copyright"></i> {{getCurrentYear()}} {{lowerFooter.copyright}} <a
-                                            :href=`${lowerFooter.copyrightLink.url}`>{{lowerFooter.copyrightLink.name}}</a></p>
-                                </div>
-                            </div>
-                            <a id="btn-back-top" href="#">
-                                <div class="btn-back-top">
-                                    <i class="fas fa-arrow-up"></i>
-                                </div>
-                            </a>
+                        <p class="txt-grey">A Functional HTML Template for Corporate & Business.</p>
+                        <ul class="txt-grey">
+                            <li>
+                                <i class="fas fa-phone-alt"></i>
+                                <span>{{phoneNumber}}</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <span>{{email}}</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>{{address}}</span>
+                            </li>
+                        </ul>
+                        <button class="btn-empty txt-grey"><a href="#section-form">GET IN TOUCH</a></button>
+                    </div>
+                    <div id="footer-card" v-for="(card,index) in footerLink">
+                        <h3 class="txt-color-white">{{card.label}}</h3>
+                        <ul>
+                            <li v-for="(link,index) in card.downMenu"><a :href=`${link.url}` class="txt-grey"><i
+                                        class="fas fa-chevron-right"></i>{{link.name}}</a></li>
+                        </ul>
+                    </div>
+                </div>
+               
+                <div id="lower-footer" class="bg-black txt-grey txt-size-13">
+                    <div class="container d-flex justif-between align-center">
+                        <div>
+                            <p>{{lowerFooter.alertPiracy}}</p>
+                        </div>
+                        <div>
+                            <p><i class="far fa-copyright"></i> {{getCurrentYear()}} {{lowerFooter.copyright}} <a
+                                    :href=`${lowerFooter.copyrightLink.url}`>{{lowerFooter.copyrightLink.name}}</a></p>
                         </div>
                     </div>
-                </footer> -->
+                    <a id="btn-back-top" href="#">
+                        <div class="btn-back-top">
+                            <i class="fas fa-arrow-up"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
